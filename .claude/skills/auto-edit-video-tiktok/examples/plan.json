@@ -1,0 +1,235 @@
+{
+ "input": "/mnt/user-data/uploads/A46AE210-0BCB-4152-8702-874CF7D01920-clip_3.1",
+ "output": "out.mp4",
+ "lines": [
+  "Bạn có tin rằng là chỉ cần một công cụ AI duy nhất là bạn có thể edit gần như là mọi thể loại video theo phong cách mà mình mong muốn không?",
+  "Từ video bán hàng này,",
+  "podcast này,",
+  "review sản phẩm,",
+  "bất động sản này,",
+  "ô tô cho đến TikTok Reel hay là YouTube Short.",
+  "Đặc biệt là bạn chỉ cần thích cái cách edit của một video bất kỳ,",
+  "AI sẽ tự động phân tích hiệu ứng này,",
+  "màu sắc này,",
+  "phụ đề và nhịp cắt để áp dụng cho phong cách tương tự lên video của bạn.",
+  "Nó sẽ tự động cắt khoảng lặng,",
+  "loại bỏ những cái đoạn thừa,",
+  "tạo những cái phụ đề làm nổi bật từ khóa,",
+  "zoom này,",
+  "nhấn cảm xúc để tối ưu được cái nhịp dựng.",
+  "Không cần phải giỏi edit video đâu,",
+  "không cần mất nhiều thời gian nữa.",
+  "Và bây giờ,",
+  "bạn chỉ cần comment phía bên dưới là 'Skill edit video tự động'",
+  "thì Kiên sẽ gửi cho bạn thông tin chi tiết về cách để edit nhé!"
+ ],
+ "title_y": 0.8,
+ "face": [
+  0.47,
+  0.42
+ ],
+ "titles": [
+  {
+   "line": 0,
+   "part": [
+    0,
+    0.36
+   ],
+   "anim": "swing",
+   "layers": [
+    {
+     "type": "script",
+     "text": "Bạn có tin rằng chỉ cần",
+     "x": -90,
+     "y": -110,
+     "size": 88
+    },
+    {
+     "type": "bold",
+     "text": "1 CÔNG CỤ AI",
+     "y": 0,
+     "color": "blue",
+     "size": 150
+    },
+    {
+     "type": "script",
+     "text": "duy nhất",
+     "x": 200,
+     "y": 105,
+     "size": 96
+    }
+   ]
+  },
+  {
+   "line": 0,
+   "part": [
+    0.36,
+    0.72
+   ],
+   "anim": "blur",
+   "layers": [
+    {
+     "type": "script",
+     "text": "bạn có thể",
+     "x": -200,
+     "y": -105,
+     "size": 96
+    },
+    {
+     "type": "bold",
+     "text": "EDIT MỌI THỂ LOẠI",
+     "y": 0,
+     "color": "gold",
+     "size": 128
+    },
+    {
+     "type": "script",
+     "text": "video",
+     "x": 220,
+     "y": 100,
+     "size": 104
+    }
+   ]
+  },
+  {
+   "line": 0,
+   "part": [
+    0.72,
+    1
+   ],
+   "anim": "blur",
+   "layers": [
+    {
+     "type": "script",
+     "text": "theo phong cách",
+     "x": -150,
+     "y": -100,
+     "size": 96
+    },
+    {
+     "type": "serif",
+     "text": "Mình Mong Muốn",
+     "y": 5,
+     "color": "pink",
+     "size": 128
+    },
+    {
+     "type": "script",
+     "text": "không?",
+     "x": 230,
+     "y": 100,
+     "size": 104
+    }
+   ]
+  },
+  {
+   "line": 1,
+   "anim": "pop",
+   "layers": [
+    {
+     "type": "script",
+     "text": "Từ video",
+     "x": -190,
+     "y": -95,
+     "size": 104
+    },
+    {
+     "type": "bold",
+     "text": "BÁN HÀNG",
+     "y": 10,
+     "color": "orange",
+     "size": 170
+    }
+   ]
+  },
+  {
+   "line": 2,
+   "anim": "pop",
+   "layers": [
+    {
+     "type": "black",
+     "text": "PODCAST",
+     "y": 0,
+     "color": "purple",
+     "size": 180
+    }
+   ]
+  },
+  {
+   "line": 13,
+   "anim": "pop",
+   "layers": [
+    {
+     "type": "black",
+     "text": "ZOOM",
+     "y": 0,
+     "color": "blue",
+     "size": 230
+    }
+   ]
+  },
+  {
+   "line": 18,
+   "anim": "rise",
+   "layers": [
+    {
+     "type": "script",
+     "text": "comment phía bên dưới",
+     "x": -60,
+     "y": -135,
+     "size": 90
+    },
+    {
+     "type": "bold",
+     "text": "SKILL EDIT VIDEO",
+     "y": -15,
+     "color": "gold",
+     "size": 140
+    },
+    {
+     "type": "pill",
+     "text": "TỰ ĐỘNG",
+     "y": 120,
+     "box": "#f0c25a",
+     "ink": "#3b2700",
+     "radius": 40
+    }
+   ]
+  }
+ ],
+ "broll": [
+  {
+   "line": 1,
+   "kind": "shop"
+  },
+  {
+   "line": 2,
+   "kind": "mic"
+  },
+  {
+   "line": 16,
+   "kind": "clock"
+  }
+ ],
+ "punch": [
+  {
+   "line": 13
+  }
+ ],
+ "sfx_events": [
+  {
+   "at_line": 17,
+   "type": "riser"
+  },
+  {
+   "at_line": 17,
+   "type": "impact",
+   "offset": 0.25
+  },
+  {
+   "at_line": 18,
+   "type": "ding",
+   "offset": 0.3
+  }
+ ]
+}
