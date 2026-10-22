@@ -1,0 +1,31 @@
+{
+  "video": "input.mp4",
+  "output": {"width": 1080, "height": 1920, "fps": 30},
+  "crop_x": 0.5,
+  "grade": true,
+  "sfx": true,
+  "blur": [[3.00, 4.98]],
+  "grid": [],
+  "elements": [
+    {"type": "title", "start": 0.05, "end": 3.0, "line1": "TẠI SAO VINHOMES", "line2": "CHỌN BẮC NINH?", "line2_at": 1.62, "y": 235},
+
+    {"type": "text", "start": 3.04, "end": 4.98, "text": "ĐẠI ĐÔ THỊ", "font": "heading", "size": 96, "color": "white", "y": 660, "anim": "blur"},
+    {"type": "counter", "start": 3.86, "end": 4.98, "from": 0, "to": 270, "duration": 0.75, "size": 330, "color": "cyan", "x": 500, "y": 950},
+    {"type": "text", "start": 3.76, "end": 4.98, "text": "gần", "font": "body", "size": 54, "color": "yellow", "x": 240, "y": 800, "anim": "blur", "sfx": false},
+    {"type": "text", "start": 4.56, "end": 4.98, "text": "ha", "font": "script", "size": 170, "color": "cyan", "x": 830, "y": 990, "anim_dur": 0.22},
+    {"type": "text", "start": 4.30, "end": 4.98, "text": "TẠI BẮC NINH", "font": "heading", "size": 78, "color": "yellow", "y": 1180, "anim": "blur", "sfx": false},
+
+    {"type": "card", "start": 6.56, "small": "Dự án Vinhomes", "big": "KINH BẮC", "location": "BẮC NINH", "y": 270, "scale": 0.88, "anim_dur": 0.3},
+    {"type": "badge", "start": 7.96, "text": "1 PHÚT", "icon": "clock", "y": 505, "scale": 0.8, "anim_dur": 0.26}
+  ],
+  "caption_style": {"y": 1330, "size": 62, "highlight": "yellow"},
+  "captions": [
+    {"start": 0.00, "end": 1.68, "words": [["Tại", 0.00], ["sao", 0.68], ["Vinhomes", 1.12], ["lại", 1.52]]},
+    {"start": 1.68, "end": 2.56, "words": [["chọn", 1.68], ["Bắc", 1.84], ["Ninh", 2.00], ["là", 2.20], ["nơi", 2.40]]},
+    {"start": 2.56, "end": 3.04, "words": [["để", 2.56], ["phát", 2.72], ["triển", 2.88]]},
+    {"start": 5.12, "end": 6.24, "words": [["Nếu", 5.12], ["anh", 5.36], ["chị", 5.56], ["đang", 5.76], ["quan", 5.92], ["tâm", 6.04]]},
+    {"start": 6.24, "end": 7.28, "words": [["dự", 6.24], ["án", 6.36], ["Vinhomes", 6.56], ["Kinh", 6.88], ["Bắc", 7.00]]},
+    {"start": 7.28, "end": 8.36, "words": [["hãy", 7.28], ["cho", 7.44], ["em", 7.60], ["Mai", 7.80], ["1", 7.96], ["phút", 8.16]]},
+    {"start": 8.36, "end": 9.73, "words": [["để", 8.36], ["cùng", 8.56], ["tìm", 8.76], ["hiểu", 8.96], ["nhé", 9.24]]}
+  ]
+}
