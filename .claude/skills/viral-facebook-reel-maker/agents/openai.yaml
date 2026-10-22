@@ -1,0 +1,4 @@
+interface:
+  display_name: "Viral Facebook Reel Maker"
+  short_description: "Create and schedule branded vertical Reels end to end"
+  default_prompt: "Set up my workspace from a reference channel and create the next Reel."
