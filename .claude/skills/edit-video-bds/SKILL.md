@@ -8,6 +8,7 @@ description: Edit video talking-head bất động sản (môi giới nói trư�
 Quy trình: video gốc → (cắt khoảng lặng) → chép lời có mốc thời gian → viết `plan.json` (chữ, số, ảnh, phụ đề khớp từng từ) → render → xem khung hình kiểm lỗi → gửi file.
 
 Mọi script nằm trong `scripts/` cạnh file này (gọi là `$SKILL`). Cần Python 3 + Pillow + numpy; ffmpeg dùng bản hệ thống, nếu không có script tự `pip install imageio-ffmpeg`.
+Trên Windows gọi `py -3` hoặc `python` thay cho `python3`. Bộ cài cho máy khác: thư mục `installer/` của repo (tự cài thư viện + chép skill vào `~/.claude/skills`).
 
 ## Bước 1 — Nhận video và hỏi đủ thông tin
 

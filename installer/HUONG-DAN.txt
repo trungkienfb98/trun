@@ -1,0 +1,57 @@
+CÀI SKILL "EDIT-VIDEO-BDS" (edit video bất động sản kiểu TikTok)
+=================================================================
+
+Skill này giúp Claude tự dựng video talking-head bất động sản: tiêu đề hook,
+số đếm chạy, thẻ dự án, ảnh sản phẩm, phụ đề tiếng Việt chạy theo từng từ,
+tiếng pop/whoosh, chuẩn âm lượng TikTok.
+
+
+A. DÙNG VỚI CLAUDE CODE TRÊN MÁY TÍNH
+-------------------------------------
+
+Windows:
+  1. Giải nén gói cài này.
+  2. Bấm đúp vào file  CAI-DAT-WINDOWS.bat
+     (Windows hỏi "Windows protected your PC" thì chọn More info > Run anyway.)
+  3. Chờ đến khi hiện "Xong!". Lần đầu sẽ tải khoảng 300 MB (thư viện + model chép lời).
+
+macOS / Linux:
+  1. Giải nén gói cài này.
+  2. Mở Terminal trong thư mục vừa giải nén và chạy:
+       bash install-edit-video-bds.sh
+
+Cài nhanh không cần tải gói (máy có mạng):
+  Windows (PowerShell):
+    irm https://raw.githubusercontent.com/trungkienfb98/trun/claude/cool-fermat-yyoi8g/installer/install-edit-video-bds.ps1 | iex
+  macOS / Linux (Terminal):
+    curl -fsSL https://raw.githubusercontent.com/trungkienfb98/trun/claude/cool-fermat-yyoi8g/installer/install-edit-video-bds.sh | bash
+
+Bộ cài sẽ:
+  - Cài Python nếu máy chưa có (Windows qua winget, macOS qua Homebrew).
+  - Cài thư viện: pillow, numpy, sherpa-onnx, imageio-ffmpeg (có sẵn ffmpeg).
+  - Chép skill vào  ~/.claude/skills/edit-video-bds  (bản cũ được giữ lại làm backup).
+  - Tải trước model chép lời tiếng Việt (~260 MB).
+
+Sau khi cài:
+  Mở Claude Code (lệnh: claude), kéo thả video vào, rồi gõ:
+    /edit-video-bds  edit video này giống mẫu
+  Máy chưa có Claude Code thì cài tại: https://claude.ai/install  (bộ cài cũng in lệnh cài ở cuối).
+
+Dùng từ điện thoại: chạy "claude remote-control" trên máy tính rồi điều khiển
+bằng app Claude (xem README trong repo trungkienfb98/trun).
+
+
+B. DÙNG TRÊN CLAUDE.AI / APP CLAUDE (KHÔNG CẦN CÀI GÌ)
+------------------------------------------------------
+  1. Mở claude.ai (trình duyệt) > Cài đặt > Capabilities: bật chạy code
+     (Code execution), rồi vào mục Skills > Upload skill.
+  2. Chọn file  edit-video-bds.zip  có trong gói này.
+  3. Từ giờ app Claude trên điện thoại cũng dùng được skill.
+  Lưu ý: môi trường của claude.ai có thể chặn tải model chép lời; khi đó
+  Claude sẽ xin bạn gõ lời thoại, các bước dựng còn lại vẫn chạy bình thường.
+
+
+GỠ CÀI ĐẶT
+----------
+  Xoá thư mục  ~/.claude/skills/edit-video-bds  (Windows: %USERPROFILE%\.claude\skills\edit-video-bds)
+  và thư mục model  ~/.cache/edit-video-bds.
