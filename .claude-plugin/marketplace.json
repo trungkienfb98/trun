@@ -1,0 +1,13 @@
+{
+  "name": "trun-skills",
+  "owner": {
+    "name": "trungkienfb98"
+  },
+  "plugins": [
+    {
+      "name": "ban-hang-ai",
+      "source": "./ban-hang-ai",
+      "description": "Chatbot AI tư vấn, chốt đơn cho Fanpage và Zalo OA, soạn nội dung kéo khách, hẹn giờ đăng bài Fanpage."
+    }
+  ]
+}

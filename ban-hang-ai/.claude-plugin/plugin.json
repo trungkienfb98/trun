@@ -1,0 +1,9 @@
+{
+  "name": "ban-hang-ai",
+  "version": "1.0.0",
+  "description": "Bộ skill bán hàng online: chatbot AI tư vấn và chốt đơn cho Fanpage và Zalo OA, tư vấn khách inbox, soạn nội dung kéo khách về Page, hẹn giờ đăng bài Fanpage.",
+  "author": {
+    "name": "trungkienfb98"
+  },
+  "keywords": ["ban-hang", "chatbot", "facebook", "zalo", "tiktok", "chot-don"]
+}

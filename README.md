@@ -28,3 +28,9 @@ curl -fsSL https://raw.githubusercontent.com/trungkienfb98/trun/claude/phone-to-
 3. Ra lệnh từ điện thoại. Claude sẽ làm việc trực tiếp trên máy tính.
 
 **Lưu ý:** giữ cửa sổ terminal mở, cho máy luôn có mạng và tắt chế độ ngủ trong lúc điều khiển. Nhấn `Ctrl+C` để dừng.
+
+---
+
+# Bộ skill Bán hàng AI
+
+Thư mục [`ban-hang-ai/`](ban-hang-ai/) là plugin Claude Code gồm 4 skill: tư vấn và chốt đơn, chatbot Fanpage + Zalo OA, soạn nội dung kéo khách, hẹn giờ đăng bài Fanpage. Xem [ban-hang-ai/README.md](ban-hang-ai/README.md).
